@@ -50,7 +50,7 @@ def register():
 @get('/signin')
 def signin():
     return {
-        '__template__': 'signin.html'
+        '__template__': 'login.html'
     }
 
 @post('/api/authenticate')
